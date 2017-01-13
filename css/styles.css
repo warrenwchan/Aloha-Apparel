@@ -1,0 +1,327 @@
+/*page layout*/
+body{
+    margin: 0 auto;
+    width: 480px;
+    font-size: 14px;
+}
+
+p{
+    font-family: 'ralewaylight_italic';
+}
+
+.page{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.navbar{
+    width: 90%;
+    height: 55px;
+    background: white;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.navcontainer{
+    width: 100%;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.logo{
+    float: left;
+    width: 140px;
+}
+
+.cart{
+    float: right;
+    width: 55px;
+}
+
+.banner{
+    width: auto;
+    height: 420px;
+    background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-size: 160px, cover;
+    background-position: center 62px,top;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #696969;
+}
+
+.gradient{
+    width: auto;
+    height: inherit;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.25) 100%);
+}
+
+.bannercontainer{
+    text-align: center;
+    position: relative;
+    padding-top: 175px;
+    color: white;
+}
+
+.new{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    padding-bottom: 1rem;
+}
+
+.spring{
+    font-size: 2.5rem;
+}
+
+.caption{
+    height: 18rem;
+    border-bottom: lightgray solid 1px;
+}
+
+.captioncontainer{
+    height: auto;
+    padding-top: 5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'playfair_displaybold', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.captiontext{
+    font-size: 1.2rem;
+    line-height: 2;
+    color: black;
+}
+
+.products{
+    height: 2200px;
+    /*background-color: lightgrey;*/
+}
+
+h3{
+    font-size: 2.5rem;
+    padding: 60px;
+}
+
+.productcontainer{
+    height: inherit;
+    width: 480px;
+    display: block;
+}
+
+.itemtext{
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+.item, img{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.item{
+    font-size: 1rem;
+    font-variant: small-caps;
+    color: dimgrey;
+    position: relative;
+    top: 4px;
+}
+
+h4{
+    font-size: 2rem;
+    color: indianred;
+    padding: 5px;
+}
+
+.signup{
+    height: 270px;
+    background-image: url(../images/wave-bkgd.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding: 50px 0;
+    border-bottom: white solid 10px;
+    background-color: lightgrey;
+}
+
+.signupcontainer{
+    height: 150px;
+    display: block;
+    padding: 20px 10;
+}
+
+h5{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.signuptext{
+    color: white;
+    line-height: 2;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+lable{
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 25px;
+    padding-right: 110px;
+    padding-left: 20px;
+    color: lightgrey;;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    right: -149px;
+    bottom: 43px;
+    font-size: 15px;
+}
+
+footer{
+    height: 318px;
+    background-color: black;
+}
+
+.footercontainer{
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.info{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    display: block;
+    line-height: 1.5;
+    padding-top: 60px;
+}
+
+.email{
+    padding: 10px;
+}
+
+.location{
+    color: lightgrey;
+}
+
+.socialcontainer{
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+}
+
+i{
+    padding: 5px;
+}
+
+
+/*--------------------TABLET---------------------*/
+
+@media screen and (min-width: 480px) {
+    body{
+        width: 600px
+    }
+
+    .page{
+        width:100%;
+    }
+
+    .navbar{
+        width:95%;
+    }
+
+    .navcontainer{
+        width: 100%;
+    }
+
+    h3{
+        padding-bottom: 30px;
+    }
+
+    .products{
+        height: 1030px;
+    }
+
+    .productcontainer{
+        width: 100%;
+    }
+
+    .item, img{
+        width: 230px;
+    }
+
+    .item{
+        width: 38.333%;
+        padding: 4.1666%;
+        margin: 1.6666%;
+        position: relative;
+        top: 0;
+        float: left;
+    }
+
+    .itemtext{
+        margin-bottom: -10px;
+    }
+
+    h4{
+        padding: 20px 0;
+        font-size: 1.8rem;
+
+    }
+
+    .footercontainer{
+        height: 250px;
+    }
+
+    .info{
+        float: left;
+        text-align: left;
+        padding-left: 10px;
+        height: 20%;
+    }
+
+    .email{
+        padding: 10px 0;
+    }
+
+    .socialcontainer{
+        height: 60%;
+        width: 100px;
+        margin: 10% 0;
+        float: right;
+        color: white;
+        text-align: left;
+        line-height: 1.9;
+    }
+}
+
+/*--------------------DESKTOP---------------------*/
+
+@media screen and (min-width: 600px) {
+    body{
+        width: 1280px;
+    }
+
+    .navbar{
+        margin: 2% 0;
+    }
+
+    .logo{
+        width: 175px;
+    }
+
+    .cart{
+        width: 75px;
+    }
+}
+
+
