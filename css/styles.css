@@ -1,8 +1,10 @@
 /*page layout*/
+html{
+    font-size: 14px;
+}
 body{
     margin: 0 auto;
     width: 480px;
-    font-size: 14px;
 }
 
 p{
@@ -17,11 +19,11 @@ p{
 }
 
 .navbar{
-    width: 90%;
+    width: 460px;
     height: 55px;
     background: white;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .navcontainer{
