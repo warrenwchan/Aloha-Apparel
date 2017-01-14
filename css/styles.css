@@ -5,9 +5,6 @@ html{
 body{
     margin: 0 auto;
     width: 480px;
-}
-
-p{
     font-family: 'ralewaylight';
 }
 
@@ -22,10 +19,10 @@ p{
 }
 
 .captiontext{
-    font-family: 'ralewaylight'
+    font-family: 'ralewaylight';
     font-size: 1.2rem;
     line-height: 2;
-    color: black;
+    padding-top: 20px;
 }
 
 .page{
@@ -96,21 +93,17 @@ p{
 }
 
 .caption{
-    height: 18rem;
+    height: 165px;
+    padding: 55px 40px;
     border-bottom: lightgray solid 1px;
 }
 
-.captioncontainer{
-    height: auto;
-    padding-top: 4.5rem;
-}
-
-h2{
-}
-
 .products{
-    height: 2200px;
-    /*background-color: lightgrey;*/
+    height: 2065px;
+}
+
+h3{
+    margin-top: 60px
 }
 
 .productcontainer{
@@ -120,18 +113,18 @@ h2{
 }
 
 .item, img{
-    width: 350px;
+    width: 330px;
     margin: 0 auto;
 }
 
 .item{
     position: relative;
-    top: 4px;
+    margin: 50px auto;
 }
 
 .itemtext{
-    height: 75px;
-    margin-bottom: 10px;
+    height: 100px;
+    margin: 10px 0;
     color: #969696;
 }
 
@@ -141,27 +134,31 @@ h2{
     font-variant: small-caps;
 }
 
+.itemprice{
+    font-family: 'ralewaymedium';
+}
 h4{
     font-family: 'playfair_displayregular';
-    font-size: 2rem;
-    color: indianred;
-    padding: 5px;
+    font-size: 1.5rem;
+    color: #e2574c;
+    padding: 20px;
 }
 
 .signup{
-    height: 270px;
+    height: 350px;
     background-image: url(../images/wave-bkgd.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
-    padding: 50px 0;
-    border-bottom: white solid 10px;
+    border-bottom: white solid 8px;
     background-color: lightgrey;
 }
 
 .signupcontainer{
     height: 150px;
     display: block;
-    padding: 20px 10;
+    padding: 60px 10px 0;
+    margin-bottom: 25px;
+    color: white;
 }
 
 lable{
@@ -174,50 +171,65 @@ lable{
 }
 
 button{
-    width: 100px;
+    width: 120px;
     height: 40px;
     color: white;
-    background-color: lightcoral;
+    background-color: #e2574c;
     border-radius: 25px;
     border: none;
     position: relative;
-    right: -149px;
+    right: -139px;
     bottom: 43px;
     font-size: 15px;
 }
 
+.email{
+    height: 42px;
+    width: 350px;
+    border: solid white 2px;
+    border-radius: 25px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+
 footer{
-    height: 318px;
-    background-color: black;
+    height: 315px;
+    background-color: #242424;
 }
 
 .footercontainer{
-    height: 100%;
+    height: 195px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 
 .info{
+    font-family: 'playfair_displayregular';
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
     display: block;
-    line-height: 1.5;
-    padding-top: 60px;
+    line-height: 1.6;
+    padding-bottom: 30px;
 }
 
-.email{
+.subscribe{
+    margin: 0 auto;
+}
+
+.infoemail{
     padding: 10px;
 }
 
 .location{
-    color: lightgrey;
+    color: grey;
 }
 
 .socialcontainer{
     width: 100%;
     color: white;
-    padding-top: 40px;
 }
 
 i{
