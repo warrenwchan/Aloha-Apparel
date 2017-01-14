@@ -8,7 +8,24 @@ body{
 }
 
 p{
-    font-family: 'ralewaylight_italic';
+    font-family: 'ralewaylight';
+}
+
+.italictext{
+    font-family: 'playfair_displayitalic';
+    font-size: 2.5rem;
+}
+
+.boldtext{
+    font-family: 'playfair_displaybold';
+    font-size: 2.5rem;
+}
+
+.captiontext{
+    font-family: 'ralewaylight'
+    font-size: 1.2rem;
+    line-height: 2;
+    color: black;
 }
 
 .page{
@@ -61,18 +78,21 @@ p{
 .bannercontainer{
     text-align: center;
     position: relative;
-    padding-top: 175px;
+    padding-top: 165px;
     color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
 }
 
 .new{
-    font-size: 1.5rem;
+    font-family: 'ralewaymedium';
+    font-size: 1.8rem;
     font-variant: small-caps;
-    padding-bottom: 1rem;
+    padding-bottom: 20px;
 }
 
 .spring{
     font-size: 2.5rem;
+    font-family: 'playfair_displayregular';
 }
 
 .caption{
@@ -82,29 +102,15 @@ p{
 
 .captioncontainer{
     height: auto;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
 }
 
 h2{
-    font-size: 2.5rem;
-    font-family: 'playfair_displaybold', 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.captiontext{
-    font-size: 1.2rem;
-    line-height: 2;
-    color: black;
 }
 
 .products{
     height: 2200px;
     /*background-color: lightgrey;*/
-}
-
-h3{
-    font-size: 2.5rem;
-    padding: 60px;
 }
 
 .productcontainer{
@@ -113,25 +119,30 @@ h3{
     display: block;
 }
 
-.itemtext{
-    height: 75px;
-    margin-bottom: 10px;
-}
-
 .item, img{
     width: 350px;
     margin: 0 auto;
 }
 
 .item{
-    font-size: 1rem;
-    font-variant: small-caps;
-    color: dimgrey;
     position: relative;
     top: 4px;
 }
 
+.itemtext{
+    height: 75px;
+    margin-bottom: 10px;
+    color: #969696;
+}
+
+.itemname{
+    font-family: ralewaymedium;
+    font-size: 1.1rem;
+    font-variant: small-caps;
+}
+
 h4{
+    font-family: 'playfair_displayregular';
     font-size: 2rem;
     color: indianred;
     padding: 5px;
@@ -151,18 +162,6 @@ h4{
     height: 150px;
     display: block;
     padding: 20px 10;
-}
-
-h5{
-    font-size: 2.5rem;
-    color: white;
-}
-
-.signuptext{
-    color: white;
-    line-height: 2;
-    font-size: 1rem;
-    margin: 10px;
 }
 
 lable{
