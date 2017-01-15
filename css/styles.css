@@ -171,26 +171,39 @@ lable{
     color: lightgrey;;
 }
 
-button{
-    width: 120px;
-    height: 40px;
-    color: white;
-    background-color: #e2574c;
+.subscribe{
+    background-color: white;
+    border: solid white 2px;
     border-radius: 25px;
+    height: 42px;
+    width: 380px;
+    padding-left: 15px;
+
+    
+}
+
+.email,button{
     border: none;
-    position: relative;
-    right: -139px;
-    bottom: 43px;
-    font-size: 15px;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 1rem;
+
+}
+
+button{
+    width:120px;
+    color:white;
+    background-color: #e2574c;
+}
+
+button:hover{
+    background-color: #b64036;
 }
 
 .email{
-    height: 42px;
-    width: 350px;
-    border: solid white 2px;
-    border-radius: 25px;
-    padding: 0 25px;
-    font-size: 14px;
+    width: 250px;
+    font-family: 'ralewaylight';
+    outline: none;
 }
 
 
