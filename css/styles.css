@@ -159,6 +159,7 @@ h4{
     padding: 60px 10px 0;
     margin-bottom: 25px;
     color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
 }
 
 lable{
