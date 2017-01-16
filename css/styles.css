@@ -4,7 +4,6 @@ html{
 }
 body{
     margin: 0 auto;
-    width: 480px;
     font-family: 'ralewaylight';
     text-align: center;
     display: block;
@@ -31,15 +30,13 @@ h2,h3,h5,.boldtext{
 }
 
 .navbar{
-    width: 460px;
     height: 51px;
     background: white;
-    margin: 0 auto;
     padding: 13px 0;
 }
 
 .navcontainer{
-    width: 100%;
+    width: 95.83%;
     margin: 0 auto;
     height: inherit;
 }
@@ -47,15 +44,16 @@ h2,h3,h5,.boldtext{
 .logo{
     float: left;
     width: 120px;
+    max-width: 100%;
 }
 
 .cart{
     float: right;
     width: 51px;
+    max-width: 100%;
 }
 
 .banner{
-    width: auto;
     height: 400px;
     background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
     background-size: 148px, cover;
@@ -65,7 +63,6 @@ h2,h3,h5,.boldtext{
 }
 
 .gradient{
-    width: auto;
     height: inherit;
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.25) 100%);
 }
@@ -179,9 +176,9 @@ lable{
     border: solid white 2px;
     border-radius: 25px;
     height: 40px;
-    width: 380px;
-    padding-left: 15px;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    width: 398px;
+    padding-left: 16px;
+    margin: 0 31px;
 }
 
 .email,button{
@@ -189,7 +186,12 @@ lable{
     border-radius: 25px;
     height: 38px;
     font-size: 1rem;
+}
 
+.email{
+    width: 268px;
+    font-family: 'ralewaylight';
+    outline: none;
 }
 
 button{
@@ -201,13 +203,6 @@ button{
 button:hover{
     background-color: #b64036;
 }
-
-.email{
-    width: 250px;
-    font-family: 'ralewaylight';
-    outline: none;
-}
-
 
 footer{
     height: 301px;
@@ -229,10 +224,6 @@ footer{
     display: block;
     line-height: 1.6;
     padding-bottom: 30px;
-}
-
-.subscribe{
-    margin: 0 auto;
 }
 
 .infoemail{
@@ -263,7 +254,7 @@ i{
 
 /*--------------------TABLET---------------------*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px){
     body{
         width: 600px
     }
