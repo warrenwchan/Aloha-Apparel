@@ -341,11 +341,7 @@ i{
 
 /*--------------------DESKTOP---------------------*/
 
-/*@media screen and (min-width: 600px) {
-    body{
-        width: 1280px;
-    }
-
+@media screen and (min-width: 600px) {
     .navbar{
         margin: 2% 0;
     }
@@ -357,6 +353,6 @@ i{
     .cart{
         width: 75px;
     }
-}*/
+}
 
 
