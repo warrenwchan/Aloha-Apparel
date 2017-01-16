@@ -636,8 +636,8 @@ a {
 
     .footercontainer{
         font-size: 1rem;
-        height: 150px;
-        padding: 65px 45px;
+        height: 100px;
+        padding: 80px 45px;
         clear: both;
     }
 
@@ -665,6 +665,7 @@ a {
        float: right;
        display: inline;
        height: 200px;
+       padding-right: 15px;
    }
 
    li{
@@ -675,6 +676,7 @@ a {
    li a{
        display: block;
        margin-right: 50px;
+       padding: 2px;
    }
 
    i{
