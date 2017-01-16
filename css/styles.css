@@ -89,7 +89,7 @@ h2,h3,h5,.boldtext{
 
 .caption{
     height: 165px;
-    padding: 55px 0;
+    padding: 50px 0;
     border-bottom: lightgray solid 1px;
 }
 
@@ -103,7 +103,6 @@ h3{
 
 .productcontainer{
     height: inherit;
-    width: 480px;
     display: block;
 }
 
@@ -248,19 +247,42 @@ footer{
 
 .socialcontainer{
     width: 100%;
-    color: white;
+}
+
+li{
+    display: inline;
+}
+
+socialmedia{
+    display: none;
 }
 
 i{
     padding: 5px;
+    color: white;
 }
 
+i:hover{
+    color:#b64036;
+}
+
+.socialmedianame{
+    display: none;
+}
+
+a {
+     text-decoration: none;
+}
 
 /*--------------------TABLET---------------------*/
 
 @media screen and (min-width: 480px){
+    html{
+        font-size: 16px;
+    }
+
     h2,h3,h5,.boldtext{
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         padding-bottom: 22px;    
     }
 
@@ -273,6 +295,7 @@ i{
     }
 
     .captiontext{
+        font-size: 1rem;
         line-height: 2;
     }
 
@@ -298,13 +321,13 @@ i{
         width: 320px;
     }
 
-  .itemname{
-        font-size: 1.08rem;
+  .itemname, .itemprice{
+        font-size: .9rem;
     }
 
     h4{
         padding: 17px 0;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .signupcontainer{
@@ -321,9 +344,18 @@ i{
         width: 71.85%;
     }
 
+    button, .email{
+        font-size: 0.9rem;
+    }
+
+    .footercontainer{
+        font-size: 0.9rem;
+    }
+
     .info{
         height: 130px;
         padding-bottom: 35px;
+        font-size: 0.9rem;
     }
 
     .infoemail{
@@ -335,24 +367,325 @@ i{
     }
 
     .social i {
-    padding: 6px;
+        padding: 6px;
+    }
+
+    .socialmedia{
+        display: inline-block;
     }
 }
 
 /*--------------------DESKTOP---------------------*/
 
 @media screen and (min-width: 600px) {
+    h2,h3,h5,.boldtext{
+        font-size: 2.4rem;
+        padding-bottom: 24px;
+    }
+    
     .navbar{
-        margin: 2% 0;
+        padding: 16px 0;
+        height: 65px;
+    }
+
+    .navcontainer{
+        width: 96%;
     }
 
     .logo{
-        width: 175px;
+        width: 160px;
     }
 
     .cart{
-        width: 75px;
+        width: 63px;
+    }
+    .banner{
+        height: 550px;
+        background-repeat: no-repeat, repeat-x;
+        background-size: 250px, contain;
+        background-position: center 60px,top;
+    }
+
+    .bannercontainer{
+        padding-top: 214px;
+    }
+
+    .new{
+        padding-bottom: 22px;
+    }
+
+    .spring{
+        font-size: 4rem;
+    }
+
+    .caption {
+        height: 134px;
+        padding: 64px 0;
+    }  
+
+    .captiontext {
+        padding: 0px 320px;
+        font-size: 1.15rem;
+    }
+
+    .products{
+        height: 500px;
+    }
+
+    .productcontainer{
+        height: inherit;
+    }
+
+    h3{
+        margin-top: 64px;
+        padding-bottom: 50px;
+    }
+
+    .item{
+        width: 235px;
+        margin: 0 29px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .item img{
+        width: 235px;
+        margin: 0 auto;
+    }
+
+    .itemtext p{
+        font-size: 1.05rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+        padding-bottom: 22px;
+    }
+
+    .signupcontainer{
+        padding-top: 64px;
+        margin-bottom: 17px;
+    }
+
+    .signup{
+        height: 342px;
+    }
+
+    .signupcontainer p{
+        padding: 0 289px;
+    }
+
+    .subscribe{
+        margin: 0 415px;
+        width: 420px;
+        height: 44px;
+        padding-left: 24px;
+    }
+
+    button{
+        width: 120px;
+        height: 42px;
+    }
+
+    .email{
+        width: 200px;
+    }
+
+    button,.email{
+        font-size: 1rem;
+    }
+
+    .footercontainer{
+        font-size: 1rem;
+        height: 150px;
+        padding: 65px 45px;
+        clear: both;
+    }
+
+    .info{
+        font-size: 1rem;
+        float: left;
+        text-align: left;
+    }
+
+    .infoemail{
+        padding:15px 0;
+    }
+
+    ul.social{
+        float: right;
+        height: 150px;
+        text-align: left;
+    }
+
+    i{
+        float: right;
     }
 }
 
+
+/*--------------------DESKTOP---------------------*/
+
+@media screen and (min-width: 1240px) {
+    h2,h3,h5,.boldtext{
+        font-size: 2.4rem;
+        padding-bottom: 24px;
+    }
+    
+    .navbar{
+        padding: 16px 0;
+        height: 58px;
+    }
+
+    .navcontainer{
+        width: 93%;
+    }
+
+    .logo{
+        width: 160px;
+    }
+
+    .cart{
+        width: 63px;
+    }
+    .banner{
+        height: 550px;
+        background-repeat: no-repeat, repeat-x;
+        background-size: 250px, contain;
+        background-position: center 60px,top;
+    }
+
+    .bannercontainer{
+        padding-top: 214px;
+    }
+
+    .new{
+        padding-bottom: 22px;
+    }
+
+    .spring{
+        font-size: 4rem;
+    }
+
+    .caption {
+        height: 134px;
+        padding: 64px 0;
+    }  
+
+    .captiontext {
+        padding: 0px 320px;
+        font-size: 1.15rem;
+    }
+
+    .products{
+        height: 500px;
+    }
+
+    .productcontainer{
+        height: inherit;
+    }
+
+    h3{
+        margin-top: 64px;
+        padding-bottom: 50px;
+    }
+
+    .item{
+        width: 235px;
+        margin: 0 29px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .item img{
+        width: 235px;
+        margin: 0 auto;
+    }
+
+    .itemtext p{
+        font-size: 1.05rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+        padding-bottom: 22px;
+    }
+
+    .signupcontainer{
+        padding-top: 64px;
+        margin-bottom: 17px;
+    }
+
+    .signup{
+        height: 342px;
+    }
+
+    .signupcontainer p{
+        padding: 0 289px;
+    }
+
+    .subscribe{
+        margin: 0 415px;
+        width: 420px;
+        height: 44px;
+        padding-left: 24px;
+    }
+
+    button{
+        width: 120px;
+        height: 42px;
+    }
+
+    .email{
+        width: 200px;
+    }
+
+    button,.email{
+        font-size: 1rem;
+    }
+
+    .footercontainer{
+        font-size: 1rem;
+        height: 150px;
+        padding: 65px 45px;
+        clear: both;
+    }
+
+    .info{
+        font-size: 1rem;
+        float: left;
+        text-align: left;
+    }
+
+    .infoemail{
+        padding:15px 0;
+    }
+
+   ul.social{
+       height: 200px;
+       width: 250px;
+       display: inline-block;
+       float: right;
+   }
+
+   li{
+     width: 150px;
+     height: 20px;
+     margin: 5px;
+   }
+
+   a{
+       color: white;
+       width: 100px;
+   }
+
+   .socialmedianame{
+       display: inline;
+   }
+
+   i{
+       width: 25px;
+       align-items: left;
+   }
+}
 
