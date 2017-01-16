@@ -366,14 +366,14 @@ a {
         margin-bottom: 20px;
     }
 
-    .social i {
+    /*.social i {
         padding: 6px;
     }
 
     .socialmedia{
         display: inline-block;
     }
-}
+}*/
 
 /*--------------------DESKTOP---------------------*/
 
@@ -510,16 +510,6 @@ a {
 
     .infoemail{
         padding:15px 0;
-    }
-
-    ul.social{
-        float: right;
-        height: 150px;
-        text-align: left;
-    }
-
-    i{
-        float: right;
     }
 }
 
@@ -661,31 +651,34 @@ a {
         padding:15px 0;
     }
 
-   ul.social{
-       height: 200px;
-       width: 250px;
-       display: inline-block;
+   .social-text{
        float: right;
-   }
-
-   li{
-     width: 150px;
-     height: 20px;
-     margin: 5px;
-   }
-
-   a{
-       color: white;
-       width: 100px;
    }
 
    .socialmedianame{
        display: inline;
+       color: white;
+       font-size: 1rem;
+   }
+
+   ul{
+       float: right;
+       display: inline;
+       height: 200px;
+   }
+
+   li{
+       padding: 5px 0;
+       text-align: left;
+   }
+
+   li a{
+       display: block;
+       margin-right: 50px;
    }
 
    i{
-       width: 25px;
-       align-items: left;
+       width: 20px;
    }
 }
 
