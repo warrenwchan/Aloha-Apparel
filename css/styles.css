@@ -176,9 +176,9 @@ lable{
     border: solid white 2px;
     border-radius: 25px;
     height: 40px;
-    width: 398px;
-    padding-left: 16px;
-    margin: 0 31px;
+    width: 82.92%;
+    padding-left: 3.3333%;
+    margin: 0 6.458%;
 }
 
 .email,button{
@@ -189,13 +189,13 @@ lable{
 }
 
 .email{
-    width: 268px;
+    width: 67.84%;
     font-family: 'ralewaylight';
     outline: none;
 }
 
 button{
-    width:120px;
+    width: 30.15%;
     color:white;
     background-color: #e2574c;
 }
@@ -255,86 +255,76 @@ i{
 /*--------------------TABLET---------------------*/
 
 @media screen and (min-width: 480px){
-    body{
-        width: 600px
+    h2,h3,h5,.boldtext{
+        font-size: 2.4rem;
+        padding-bottom: 22px;    
     }
 
-    .page{
-        width:100%;
+    .banner{
+        background-size: 150px, cover;
     }
 
-    .navbar{
-        width:95%;
+    .caption{
+        height: 120px;
     }
 
-    .navcontainer{
-        width: 100%;
-    }
-
-    h3{
-        padding-bottom: 30px;
+    .captiontext{
+        line-height: 2;
     }
 
     .products{
-        height: 1030px;
+        height: 1942px;
+    }
+
+    h3{
+        margin-top: 56px;
+        padding-bottom: 32px;
     }
 
     .productcontainer{
         width: 100%;
     }
 
-    .item, img{
-        width: 230px;
-    }
-
     .item{
-        width: 38.333%;
-        padding: 4.1666%;
-        margin: 1.6666%;
-        position: relative;
-        top: 0;
-        float: left;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
-    .itemtext{
-        margin-bottom: -10px;
+    .item, img{
+        width: 320px;
+    }
+
+  .itemname{
+        font-size: 1.08rem;
     }
 
     h4{
-        padding: 20px 0;
-        font-size: 1.8rem;
+        padding: 17px 0;
+        font-size: 1.5rem;
 
-    }
-
-    .footercontainer{
-        height: 250px;
     }
 
     .info{
-        float: left;
-        text-align: left;
-        padding-left: 10px;
-        height: 20%;
+        height: 130px;
+        padding-bottom: 35px;
     }
 
     .infoemail{
         padding: 10px 0;
     }
 
+    .location{
+        margin-bottom: 20px;
+    }
+
     .socialcontainer{
-        height: 60%;
-        width: 100px;
-        margin: 10% 0;
-        float: right;
-        color: white;
-        text-align: left;
-        line-height: 1.9;
+
     }
 }
 
 /*--------------------DESKTOP---------------------*/
 
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
     body{
         width: 1280px;
     }
@@ -350,6 +340,6 @@ i{
     .cart{
         width: 75px;
     }
-}
+}*/
 
 
