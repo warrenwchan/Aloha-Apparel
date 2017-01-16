@@ -189,14 +189,18 @@ lable{
 }
 
 .email{
-    width: 67.84%;
+    width: 64.85%;
     font-family: 'ralewaylight';
     outline: none;
 }
 
 button{
-    width: 30.15%;
-    color:white;
+    float: right;
+    position: relative;
+    right: 2px;
+    top: 1px;
+    width: 110px;
+    color: white;
     background-color: #e2574c;
 }
 
@@ -301,7 +305,20 @@ i{
     h4{
         padding: 17px 0;
         font-size: 1.5rem;
+    }
 
+    .signupcontainer{
+        padding-top: 56px;
+        margin-bottom: 28px;
+    }
+
+    .captiontext{
+        padding: 0 15px;
+    }
+
+    .email{
+        float: left;
+        width: 71.85%;
     }
 
     .info{
@@ -317,8 +334,8 @@ i{
         margin-bottom: 20px;
     }
 
-    .socialcontainer{
-
+    .social i {
+    padding: 6px;
     }
 }
 
