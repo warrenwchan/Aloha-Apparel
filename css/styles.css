@@ -6,6 +6,8 @@ body{
     margin: 0 auto;
     width: 480px;
     font-family: 'ralewaylight';
+    text-align: center;
+    display: block;
 }
 
 h2,h3,h5{
@@ -26,13 +28,6 @@ h2,h3,h5,.boldtext{
     font-size: 1.15rem;
     line-height: 1.9;
     padding: 0 10px;
-}
-
-.page{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
 }
 
 .navbar{
