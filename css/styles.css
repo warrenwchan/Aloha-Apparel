@@ -39,16 +39,16 @@ h2,h3,h5,.boldtext{
     width: 95.83%;
     margin: 0 auto;
     height: inherit;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
-    float: left;
     width: 120px;
     max-width: 100%;
 }
 
 .cart{
-    float: right;
     width: 51px;
     max-width: 100%;
 }
@@ -106,7 +106,7 @@ h3{
     display: block;
 }
 
-.item, img{
+.item img{
     width: 315px;
     margin: 0 auto;
 }
@@ -178,6 +178,7 @@ lable{
     width: 82.92%;
     padding-left: 3.3333%;
     margin: 0 6.458%;
+    display: flex;
 }
 
 .email,button{
@@ -188,19 +189,19 @@ lable{
 }
 
 .email{
-    width: 64.85%;
+    width: 71.54%;
     font-family: 'ralewaylight';
     outline: none;
 }
 
 button{
-    float: right;
     position: relative;
     right: 2px;
     top: 1px;
     width: 110px;
     color: white;
     background-color: #e2574c;
+    justify-content: flex-end;
 }
 
 button:hover{
@@ -340,8 +341,7 @@ a {
     }
 
     .email{
-        float: left;
-        width: 71.85%;
+        width: 77.85%;
     }
 
     button, .email{
@@ -422,7 +422,7 @@ a {
     }
 
     .products{
-        height: 1100px;
+        height: 1000px;
     }
 
     h3{
@@ -433,7 +433,7 @@ a {
 
     .item{
         width: 39.28%;
-        margin: 0 32px 30px;
+        margin: 0 31px 30px;
         display: inline-block;
         vertical-align: top;
     }
@@ -459,16 +459,17 @@ a {
     }
 
     .signup{
-        height: 342px;
+        height: 346px;
     }
 
     .signupcontainer p{
-        padding: 0 28px;
+        padding: 0 70px;
     }
 
     .subscribe{
-        margin: 0 auto;
-        width: 420px;
+        margin: 20px auto;
+        width: 60%;
+        max-width: 425px;
         height: 44px;
         padding-left: 24px;
     }
@@ -479,7 +480,7 @@ a {
     }
 
     .email{
-        width: 200px;
+        width: 70.96%;
     }
 
     button,.email{
@@ -491,11 +492,12 @@ a {
         height: 150px;
         padding: 65px 20px;
         clear: both;
+        display: flex;
+        justify-content: space-between;
     }
 
     .info{
         font-size: 1rem;
-        float: left;
         text-align: left;
     }
 
@@ -504,7 +506,6 @@ a {
     }
 
     .social{
-       float: right;
    }
 
    .socialmedianame{
@@ -526,6 +527,10 @@ a {
 
    a :hover{
        color: #b64036;
+   }
+
+   footer{
+       height:287px;
    }
 }
 
@@ -590,15 +595,30 @@ a {
     }
     .footercontainer{
         padding: 65px 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     footer{
         height: 290px;
     }
 
+    .info{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .infoemail{
+        padding:15px 0;
+    }
+
+    .social{
+        
+   }
+
     li a{
        display: block;
-       margin-right: 50px;
        padding: 2px;
        text-align: left
    }
