@@ -1,19 +1,18 @@
 # Aloha-Apparel
 READ ME
 January.16,2017
-This project was created on through out the first week of my web dev program.
-throughout this week ive learned how to code HTML aswell as CSS. 
-Ive learned how to handle specific elements and atributes to manufacture a system of codes which
-formed this web page. 
-The use of box model made it very useful to construct sections of the page.
-It took me awhile but Ive learned that there are many ways to contruct codes which presents the same outcome.
+This project was created through out the first week of my web dev program at RED Acadamy. Throughout this week ive learned how to structure  HTML aswell as CSS codes.
+Ive learned how to handle specific elements and attributes to manufacture a system of codes which formed this web page. The box model is very useful and makes dividing up sections of the page for us to build the layout with ease.
+It took me awhile but Ive learned that there are many ways to contruct codes which can presents the same outcome.
+
+Using the design comps that were provided for us in the project folder, i was able to build a rough skeleton on the backend website including everything in the correct order and structure then moved on to desiging the front face of the website using my CSS. The CSS makes it easier for us to style our work rather than using inline html styling technics; this method can be tedious and is out dated. 
 
 My Root folder are separated in three main folders containing my CSS, Photos and Fonts.
-I chose to organize my folde this way to keep things easy to access and labeled friendly,
+I chose to organize my folde this way to keep things organized in the CSS sheets and also to learn how to link stylesheets within folders inside my root folder.
 
 I used a hfre tag to later link those files from the folder.
 
-my body consist of my navagation bar / Hero banner / Captions / Products / Sign-up bar and Footer.
+My body consist of my navagation bar / Hero banner / Captions / Products / Sign-up bar and Footer.
 
 My biggest challenge must have been putting together the responsive page layout. Figuring out the percentage,
 then having to match the view points later one definitly posted a challenge.
