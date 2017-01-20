@@ -30,27 +30,52 @@ h2,h3,h5,.boldtext{
 }
 
 .navbar{
-    height: 51px;
+    height: 107px;
     background: white;
-    padding: 13px 0;
 }
 
 .navcontainer{
-    width: 95.83%;
-    margin: 0 auto;
+    width: 100%;
     height: inherit;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.logo{
+.logo, .cart{
+    width: 50%;
+}
+
+.logo img{
     width: 120px;
     max-width: 100%;
 }
 
-.cart{
+
+.cart img{
     width: 51px;
     max-width: 100%;
+}
+
+.navmenu{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    order: 2;
+}
+
+.navmenu ul{
+    display: inline-flex;
+}
+
+.navmenu li a{
+    font-family: 'ralewaymedium';
+    font-size: 0.9rem;
+    color: #e2574c;
+    padding: 0 12px;
+    text-decoration: none;
+    display: flex;
+    text-transform: uppercase;
 }
 
 .banner{
@@ -246,19 +271,11 @@ footer{
     color: grey;
 }
 
-.socialcontainer{
-    width: 100%;
-}
-
-li{
+.social li{
     display: inline;
 }
 
-socialmedia{
-    display: none;
-}
-
-i{
+.social i{
     padding: 5px;
     color: white;
 }
@@ -267,11 +284,11 @@ i:hover{
     color:#b64036;
 }
 
-.socialmedianame{
+.social span{
     display: none;
 }
 
-a {
+.social a {
      text-decoration: none;
 }
 
@@ -371,27 +388,69 @@ a {
 /*--------------------DESKTOP---------------------*/
 
 @media screen and (min-width: 600px){
+    html{
+        font-size: 16px;
+    }
+
     h2,h3,h5,.boldtext{
         font-size: 2.4rem;
         padding-bottom: 24px;
     }
     
     .navbar{
-        padding: 16px 0;
-        height: 60px;
+        height: 78px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .navcontainer{
-        width: 96%;
+        width: 100%;
+        height: 48px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 2%;
     }
 
     .logo{
-        width: 145px;
+        width: 120px;
+        display: flex;
+    }
+
+    .logo img{
+        width: 120px;
+        order: 1;
     }
 
     .cart{
-        width: 58px;
+        width: 120px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        order: 3;
     }
+
+    .cart img{
+        width: 48px;
+    }
+
+    .navmenu{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 2;
+    }
+
+    .navmenu ul{
+        display: inline-flex;
+    }
+
+    .navmenu li a{
+        font-size: 0.9rem;
+    }
+
     .banner{
         height: 400px;
         background-repeat: no-repeat;
@@ -490,15 +549,20 @@ a {
     .footercontainer{
         font-size: 1rem;
         height: 150px;
-        padding: 65px 20px;
-        clear: both;
+        width: 100%;
+        padding: 0;
+        margin: 0 1rem;
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 
     .info{
+        height: 100%;
         font-size: 1rem;
         text-align: left;
+        padding: 0;
+        align-content: center;
     }
 
     .infoemail{
@@ -506,32 +570,36 @@ a {
     }
 
     .social{
-   }
+        height: 100%;
+        align-content: center;
+    }
 
-   .socialmedianame{
+    .social span{
        display: inline;
+       padding-right: 1rem;
        color: white;
        font-size: 1rem;
-   }
+    }
 
-   li a{
+    .social li a{
        display: block;
-       margin-right: 40px;
        padding: 2px;
        text-align: left
-   }
+    }
 
-   i{
+    .social i{
        width: 20px;
-   }
+    }
 
-   a :hover{
+    a :hover{
        color: #b64036;
-   }
+    }
 
-   footer{
+    footer{
        height:287px;
-   }
+       display: flex;
+       align-items: center;
+    }
 }
 
 
@@ -540,16 +608,41 @@ a {
 @media screen and (min-width: 1240px) {
 
     .navbar{
-        height: 65px;
+        height: 88px;
+    }
+
+    .navcontainer{
+        height: 80px;
     }
 
     .logo{
         width: 160px;
+        justify-content: flex-start;
+    }
+
+    .logo img{
+        width: 200px;
     }
 
     .cart{
-        width: 63px;
+        width: 160px;
     }
+
+    .cart img{
+        width: 62px;
+    }
+
+    .navmenu{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navmenu li a{
+        font-size: 1rem;
+        padding: 18px;
+    }
+
     .banner{
         height: 550px;
         background-repeat: no-repeat, repeat-x;
@@ -593,33 +686,12 @@ a {
     .subscribe{
         margin: 0 415px;
     }
+
     .footercontainer{
-        padding: 65px 45px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    footer{
-        height: 290px;
-    }
-
-    .info{
-        font-size: 1rem;
-        text-align: left;
-    }
-
-    .infoemail{
-        padding:15px 0;
+        margin:0 3rem; 
     }
 
     .social{
-        
-   }
-
-    li a{
-       display: block;
-       padding: 2px;
-       text-align: left
-   }
+        padding-right: 3rem;
+    }
 }
