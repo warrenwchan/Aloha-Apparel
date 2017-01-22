@@ -33,6 +33,7 @@ h2,h3,h5,.boldtext{
     height: 107px;
     background: white;
     display: flex;
+    z-index: 2;
 }
 
 .navcontainer{
@@ -93,18 +94,20 @@ h2,h3,h5,.boldtext{
     text-transform: uppercase;
 }
 
-.banner{
-    height: 400px;
-    background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-    background-size: 148px, cover;
-    background-position: center 62px,top;
-    background-repeat: no-repeat, no-repeat;
-    background-color: #696969;
+.navmenu li a:hover{
+    color: #b64036;
 }
 
-.gradient{
-    height: inherit;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 25%, rgba(0,0,0,0.25) 100%);
+.banner{
+    height: 400px;
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+     url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-size: 100%, 148px, cover;
+    background-position: center, center 62px,top;
+    background-repeat: no-repeat;
+    background-color: #696969;
 }
 
 .bannercontainer{
@@ -120,11 +123,13 @@ h2,h3,h5,.boldtext{
     font-size: 1.8rem;
     font-variant: small-caps;
     padding-bottom: 20px;
+    z-index: 1;
 }
 
 .spring{
     font-size: 2.5rem;
     font-family: 'playfair_displayregular';
+    z-index: 1;
 }
 
 .caption{
@@ -146,30 +151,23 @@ h2,h3,h5,.boldtext{
     width: 100%;
 }
 
-.smallcat img{
-    box-sizing: border-box;
-    width: 100%;
-    display: block;
-}
-
-.largecat img{
-    box-sizing: border-box;
-    width: 100%;
-    display: block;
-    display: flex;
-}
-
 .cat1large{
     padding:23%;
-    background-image: url("../images/mens-category.jpg");
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url("../images/mens-category.jpg");
     background-size: cover;
     border-bottom: 4px solid white;
     text-align: center;
 }
 
 .cat2small{
-    padding:45%;
-    background-image: url("../images/trends-category.jpg");
+    padding: 45% 0 45% 0;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url("../images/trends-category.jpg");
     background-size: cover;
     border: 4px solid white;
     border-left: none;
@@ -177,8 +175,11 @@ h2,h3,h5,.boldtext{
 }
 
 .cat3small{
-    padding:45%;
-    background-image: url("../images/glasses-category.jpg");
+    padding: 45% 0 45% 0;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url("../images/glasses-category.jpg");
     background-size: cover;
     border: 4px solid white;
     border-right: none;
@@ -186,8 +187,11 @@ h2,h3,h5,.boldtext{
 }
 
 .cat4small{
-    padding:45%;
-    background-image: url("../images/sale-category.jpg");
+    padding: 45% 0 45% 0;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url("../images/sale-category.jpg");
     background-size: cover;
     border: 4px solid white;
     border-left: none;
@@ -195,8 +199,11 @@ h2,h3,h5,.boldtext{
 }
 
 .cat5small{
-    padding:45%;
-    background-image: url("../images/bags-category.jpg");
+    padding: 45% 0 45% 0;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url("../images/bags-category.jpg");
     background-size: cover;
     border: 4px solid white;
     border-right: none;
@@ -205,7 +212,10 @@ h2,h3,h5,.boldtext{
 
 .cat6large{
     padding:23%;
-    background-image: url("../images/womens-category.jpg");
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url("../images/womens-category.jpg");
     background-size: cover;
     border-top: 4px solid white;
     text-align: center;
@@ -221,11 +231,12 @@ h2,h3,h5,.boldtext{
 }
 
 .products{
-    height: 1895px;
+    height: 620px;
 }
 
 h3{
-    margin-top: 60px
+    margin: 60px
+
 }
 
 .productcontainer{
@@ -240,7 +251,8 @@ h3{
 
 .item{
     position: relative;
-    margin: 20px auto;
+    width: 100%
+    /*margin: 20px auto;*/
 }
 
 .itemtext{

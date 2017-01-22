@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flickity.css">
 </head>
 
 <body>
@@ -25,26 +26,10 @@
             </div>
             <div class="navmenu">
                 <ul>
-                    <li>
-                        <a href="about">
-                            <p>About</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop">
-                            <p>Shop</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="features">
-                            <p>Featured</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="updates">
-                            <p>Updates</p>
-                        </a>
-                    </li>
+                    <li><a href="about">About</a></li>
+                    <li> <a href="shop">Shop</a></li>
+                    <li><a href="features">Featured</a></li>
+                    <li><a href="updates">Updates</a></li>
                 </ul>
             </div>
         </section>
@@ -67,38 +52,38 @@
     <section class="category">
             <div class="largecat">
                 <div class="cat1large">
-                    <p class="catname">men's</p>
+                    <div class="catname"><p>men's</p></div>
                 </div>
             </div>
             <div class="smallcat">
                 <div class="cat2small">
-                    <p class="catname">trends</p>
+                    <div class="catname"><p>trends</p></div>
                 </div>
             </div>
             <div class="smallcat">
                 <div class="cat3small">
-                    <p class="catname">glasses</p>
+                    <div class="catname"><p>glasses</p></div>
                 </div>
             </div>
             <div class="smallcat">
                 <div class="cat4small">
-                    <p class="catname">sale</p>
+                    <div class="catname"><p>sale</p></div>
                 </div>
             </div>
             <div class="smallcat">
                 <div class="cat5small">
-                    <p class="catname">bags</p>
+                    <div class="catname"><p>bags</p></div>
                 </div>
             </div>
             <div class="largecat">
                 <div class="cat6large">
-                    <p class="catname">women's</p>
+                    <div class="catname"><p>women's</p></div>
                 </div>
             </div>
     </section>
     <section class="products">
         <h3>Most-Loved <span class="boldtext">Products</span></h3>
-        <ul>
+        <ul class="main-carousel">
             <li class="item">
                 <img src="images/stretch-knit-dress.jpg">
                 <div class="itemtext">
@@ -131,6 +116,38 @@
                     <p class="itemprice">$69.00</p>
                 </div>
             </li>
+            <li class="item">
+                <img src="images/demin-overall-shorts.jpg">
+                <div class="itemtext">
+                    <p class="itemname">denim</p>
+                    <h4>Denim Overall Shorts</h4>
+                    <p class="itemprice">$89.00</p>
+                </div>
+            </li>
+            <li class="item">
+                <img src="images/pink-dotted-dress.jpg">
+                <div class="itemtext">
+                    <p class="itemname">dresses</p>
+                    <h4>pink dotted dress</h4>
+                    <p class="itemprice">$99.00</p>
+                </div>
+            </li>
+            <li class="item">
+                  <img src="images/blue-silk-dress.jpg">
+                <div class="itemtext">
+                    <p class="itemname">dresses</p>
+                    <h4>blue silk dress</h4>
+                    <p class="itemprice">$119.00</p>
+                </div>
+            </li>
+            <li class="item">
+                <img src="images/cotton-yellow-tshirt.jpg">
+                <div class="itemtext">
+                    <p class="itemname">shirts</p>
+                    <h4>cotton yellow tshirt</h4>
+                    <p class="itemprice">$39.00</p>
+                </div>
+            </li>
         </ul>
     </section>
     <section class="signup">
@@ -142,7 +159,8 @@
             </div>
             <div class="subscribe">
                 <input class="email" type="email" name="email" value placeholder="Your Email">
-                <button>Subscribe</button>
+                <button class="subbutt">Subscribe</button>
+                <form action=""></form>
             </div>
         </div>
     </section>
@@ -195,6 +213,7 @@
     </footer>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
