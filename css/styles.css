@@ -139,12 +139,10 @@ h2,h3,h5,.boldtext{
 }
 
 .smallcat{
-    text-align: center;
     width: 50%;
 }
 
 .largecat{
-    text-align: center;
     width: 100%;
 }
 
@@ -161,22 +159,56 @@ h2,h3,h5,.boldtext{
     display: flex;
 }
 
-.topimg{
+.cat1large{
+    padding:23%;
+    background-image: url("../images/mens-category.jpg");
+    background-size: cover;
     border-bottom: 4px solid white;
+    text-align: center;
 }
 
-.leftimg{
+.cat2small{
+    padding:45%;
+    background-image: url("../images/trends-category.jpg");
+    background-size: cover;
     border: 4px solid white;
     border-left: none;
+    text-align: center;
 }
 
-.rightimg{
+.cat3small{
+    padding:45%;
+    background-image: url("../images/glasses-category.jpg");
+    background-size: cover;
     border: 4px solid white;
     border-right: none;
+    text-align: center;
 }
 
-.bottomimg{
+.cat4small{
+    padding:45%;
+    background-image: url("../images/sale-category.jpg");
+    background-size: cover;
+    border: 4px solid white;
+    border-left: none;
+    text-align: center;
+}
+
+.cat5small{
+    padding:45%;
+    background-image: url("../images/bags-category.jpg");
+    background-size: cover;
+    border: 4px solid white;
+    border-right: none;
+    text-align: center;
+}
+
+.cat6large{
+    padding:23%;
+    background-image: url("../images/womens-category.jpg");
+    background-size: cover;
     border-top: 4px solid white;
+    text-align: center;
 }
 
 .catname{
@@ -185,6 +217,7 @@ h2,h3,h5,.boldtext{
     text-transform: uppercase;
     color: white;
     text-shadow:  1px 1px 10px rgba(0,0,0,0.3);
+    width: 100%;
 }
 
 .products{
