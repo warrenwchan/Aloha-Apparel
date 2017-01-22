@@ -32,18 +32,31 @@ h2,h3,h5,.boldtext{
 .navbar{
     height: 107px;
     background: white;
+    display: flex;
 }
 
 .navcontainer{
-    width: 100%;
-    height: inherit;
+    width: 97%;
+    height: 92px;
+    padding: 0 8px;
     display: flex;
     justify-content: center;
+    align-self: center;
     flex-wrap: wrap;
 }
 
-.logo, .cart{
+.logo{
     width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cart{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo img{
@@ -51,16 +64,18 @@ h2,h3,h5,.boldtext{
     max-width: 100%;
 }
 
-
 .cart img{
     width: 51px;
     max-width: 100%;
 }
 
 .navmenu{
-    width: 95%;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: solid 1px lightgray;
     order: 2;
 }
 
@@ -115,7 +130,28 @@ h2,h3,h5,.boldtext{
 .caption{
     height: 165px;
     padding: 50px 0;
-    border-bottom: lightgray solid 1px;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images1 img{
+    width: 100%
+}
+
+.images2 img{
+    width: 100%
+}
+
+.images1{
+    width: 50%;
+}
+
+.images2{
+    width: 100%;
 }
 
 .products{
@@ -408,6 +444,7 @@ i:hover{
     .navcontainer{
         width: 100%;
         height: 48px;
+        display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
         padding: 0 2%;
@@ -415,6 +452,7 @@ i:hover{
 
     .logo{
         width: 120px;
+        height: 100%;
         display: flex;
     }
 
@@ -441,6 +479,8 @@ i:hover{
         align-items: center;
         justify-content: center;
         order: 2;
+        border: none;
+        padding-top: 0;
     }
 
     .navmenu ul{
@@ -478,6 +518,14 @@ i:hover{
     .captiontext {
         padding: 0px 30px;
         font-size: 1.15rem;
+    }
+
+    .images1{
+        width: 25%;
+    }
+
+    .images2{
+        width: 50%;
     }
 
     .products{
