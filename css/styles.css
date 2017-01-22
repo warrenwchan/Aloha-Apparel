@@ -18,19 +18,17 @@ h2,h3,h5{
 }
 
 h2,h3,h5,.boldtext{
-    font-size: 2.2rem;
-    padding-bottom: 26px;
+    font-size: 2.4rem;
 }
 
 .captiontext{
     font-family: 'ralewaylight';
     font-size: 1.15rem;
-    line-height: 1.9;
-    padding: 0 10px;
+    line-height: 2;
 }
 
 .navbar{
-    height: 107px;
+    height: 116px;
     background: white;
     display: flex;
     z-index: 2;
@@ -48,14 +46,14 @@ h2,h3,h5,.boldtext{
 
 .logo{
     width: 50%;
-    height: 50%;
+    height: 55%;
     display: flex;
     justify-content: flex-start;
 }
 
 .cart{
     width: 50%;
-    height: 50%;
+    height: 55%;
     display: flex;
     justify-content: flex-end;
 }
@@ -86,9 +84,9 @@ h2,h3,h5,.boldtext{
 
 .navmenu li a{
     font-family: 'ralewaymedium';
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #e2574c;
-    padding: 0 12px;
+    padding: 0 15px;
     text-decoration: none;
     display: flex;
     text-transform: uppercase;
@@ -96,6 +94,15 @@ h2,h3,h5,.boldtext{
 
 .navmenu li a:hover{
     color: #b64036;
+}
+
+.bannercontainer{
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
 }
 
 .banner{
@@ -108,14 +115,8 @@ h2,h3,h5,.boldtext{
     background-position: center, center 62px,top;
     background-repeat: no-repeat;
     background-color: #696969;
-}
-
-.bannercontainer{
-    text-align: center;
-    position: relative;
-    padding-top: 156px;
-    color: white;
-    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
 }
 
 .new{
@@ -133,8 +134,18 @@ h2,h3,h5,.boldtext{
 }
 
 .caption{
-    height: 165px;
-    padding: 50px 0;
+    height: 266px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.captioncontainer{
+    height: 57%;
+    padding: 0 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .category{
@@ -223,7 +234,7 @@ h2,h3,h5,.boldtext{
 
 .catname{
     font-family: 'ralewaymedium';
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     color: white;
     text-shadow:  1px 1px 10px rgba(0,0,0,0.3);
@@ -234,9 +245,8 @@ h2,h3,h5,.boldtext{
     height: 620px;
 }
 
-h3{
-    margin: 60px
-
+.mostloved{
+    margin: 60px 0;
 }
 
 .productcontainer{
@@ -279,25 +289,32 @@ h4{
 
 .signup{
     height: 332px;
-    background-image: url(../images/wave-bkgd.jpg);
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)),
+    url(../images/wave-bkgd.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     border-bottom: white solid 8px;
     background-color: lightgrey;
+    display: flex;
+    align-items: center;
 }
 
 .signupcontainer{
-    height: 150px;
+    height: 225px;
     display: block;
-    padding-top: 60px;
-    margin-bottom: 24px;
     color: white;
     text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
 }
 
 h5,.boldtext{
     font-size: 2.4rem;
-    padding-bottom: 20px;
 }
 
 lable{
@@ -316,7 +333,6 @@ lable{
     height: 40px;
     width: 82.92%;
     padding-left: 3.3333%;
-    margin: 0 6.458%;
     display: flex;
 }
 
@@ -406,99 +422,6 @@ i:hover{
      text-decoration: none;
 }
 
-/*--------------------TABLET---------------------*/
-
-@media screen and (min-width: 480px){
-    html{
-        font-size: 16px;
-    }
-
-    h2,h3,h5,.boldtext{
-        font-size: 2.1rem;
-        padding-bottom: 22px;    
-    }
-
-    .banner{
-        background-size: 150px, cover;
-    }
-
-    .caption{
-        height: 120px;
-    }
-
-    .captiontext{
-        font-size: 1rem;
-        line-height: 2;
-    }
-
-    .products{
-        height: 1942px;
-    }
-
-    h3{
-        margin-top: 56px;
-        padding-bottom: 32px;
-    }
-
-    .productcontainer{
-        width: 100%;
-    }
-
-    .item{
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-
-    .item, img{
-        width: 320px;
-    }
-
-  .itemname, .itemprice{
-        font-size: .9rem;
-    }
-
-    h4{
-        padding: 17px 0;
-        font-size: 1.3rem;
-    }
-
-    .signupcontainer{
-        padding-top: 56px;
-        margin-bottom: 28px;
-    }
-
-    .captiontext{
-        padding: 0 15px;
-    }
-
-    .email{
-        width: 77.85%;
-    }
-
-    button, .email{
-        font-size: 0.9rem;
-    }
-
-    .footercontainer{
-        font-size: 0.9rem;
-    }
-
-    .info{
-        height: 130px;
-        padding-bottom: 35px;
-        font-size: 0.9rem;
-    }
-
-    .infoemail{
-        padding: 10px 0;
-    }
-
-    .location{
-        margin-bottom: 20px;
-    }
-
-}
-
 /*--------------------DESKTOP---------------------*/
 
 @media screen and (min-width: 600px){
@@ -512,7 +435,7 @@ i:hover{
     }
     
     .navbar{
-        height: 78px;
+        height: 83px;
         padding: 0;
         display: flex;
         align-items: center;
@@ -520,7 +443,7 @@ i:hover{
     }
 
     .navcontainer{
-        width: 100%;
+        width: 96%;
         height: 48px;
         display: flex;
         flex-wrap: nowrap;
@@ -567,17 +490,14 @@ i:hover{
 
     .navmenu li a{
         font-size: 0.9rem;
+        padding: 0 10px;
     }
 
     .banner{
         height: 400px;
         background-repeat: no-repeat;
-        background-size: 150px, cover;
-        background-position: center 60px,top;
-    }
-
-    .bannercontainer{
-        padding-top: 150px;
+        background-size: 100%, 150px, cover;
+        background-position: center, center 60px,top;
     }
 
     .new{
@@ -589,9 +509,41 @@ i:hover{
     }
 
     .caption {
-        height: 134px;
-        padding: 64px 0;
+        height: 302px;
     }  
+
+    .largecat{
+        width: 50%;
+    }
+
+    .smallcat{
+        width: 25%;
+    }
+
+    .cat1large{
+        border: 4px solid white;
+        border-left: none;
+    }
+    .cat2small{
+        border: 4px solid white;
+        padding: 47% 0 45% 0;
+    }
+    .cat3small{
+        border: 4px solid white;
+        border-right: none;
+        padding: 47% 0 45% 0;
+    }
+    .cat4small{
+        border: 4px solid white;
+        border-left: none;
+    }
+    .cat5small{
+        border: 4px solid white;
+    }
+    .cat6large{
+        border: 4px solid white;
+        border-right: none;
+    }
 
     .captiontext {
         padding: 0px 30px;
@@ -605,16 +557,6 @@ i:hover{
     .images2{
         width: 50%;
     }
-
-    .products{
-        height: 1000px;
-    }
-
-    h3{
-        margin-top: 64px;
-        padding-bottom: 50px;
-    }
-
 
     .item{
         width: 39.28%;
@@ -639,8 +581,8 @@ i:hover{
     }
 
     .signupcontainer{
-        padding-top: 64px;
-        margin-bottom: 17px;
+        /*padding-top: 64px;
+        margin-bottom: 17px;*/
     }
 
     .signup{
