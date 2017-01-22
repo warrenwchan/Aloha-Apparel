@@ -138,20 +138,53 @@ h2,h3,h5,.boldtext{
     flex-wrap: wrap;
 }
 
-.images1 img{
-    width: 100%
-}
-
-.images2 img{
-    width: 100%
-}
-
-.images1{
+.smallcat{
+    text-align: center;
     width: 50%;
 }
 
-.images2{
+.largecat{
+    text-align: center;
     width: 100%;
+}
+
+.smallcat img{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+.largecat img{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    display: flex;
+}
+
+.topimg{
+    border-bottom: 4px solid white;
+}
+
+.leftimg{
+    border: 4px solid white;
+    border-left: none;
+}
+
+.rightimg{
+    border: 4px solid white;
+    border-right: none;
+}
+
+.bottomimg{
+    border-top: 4px solid white;
+}
+
+.catname{
+    font-family: 'ralewaymedium';
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:  1px 1px 10px rgba(0,0,0,0.3);
 }
 
 .products{
