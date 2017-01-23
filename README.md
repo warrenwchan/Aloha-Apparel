@@ -1,5 +1,10 @@
+# Update: Aloha-Apparel Phase 2
+README
+January.23,2017
+Upon the second week of being at RED, we were intoduced to Flexbox. A method of aligning things without having to deal with floats and clear fixes. Flexbox made it easy to replaced all floats, tweak any adjustments and remove any unnecessary margins and paddings. Flexbox allowed us to center align our headdings and texts within seconds. We were then working with javascript and got to learn different commands and to put together sets of instruction to make our buttons work. Java also made it possible to add an interative carousel to our page that displayed 4 additional products. This carousel was a plug in provided by Flickity (flickity.metafizzy.co/). My toughest challenge was and still is working with javascript. Struggling with javascript made it hard to impliment these comands and actions we get returned to us when certain buttons are pressed. Im challenged the most with structuring java codes and coming up with where to start. Although throughout this project i can say ive gotten some of the basics of JS down but more practice is in need. 
+
 # Aloha-Apparel Phase 1
-READ ME
+README
 January.16,2017
 This project was created through out the first week of my web dev program at RED Acadamy. Throughout this week ive learned how to structure  HTML aswell as CSS codes.
 Ive learned how to handle specific elements and attributes to manufacture a system of codes which formed this web page. The box model is very useful and makes dividing up sections of the page for us to build the layout with ease.
