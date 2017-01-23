@@ -1,4 +1,4 @@
-# Aloha-Apparel
+# Aloha-Apparel Phase 1
 READ ME
 January.16,2017
 This project was created through out the first week of my web dev program at RED Acadamy. Throughout this week ive learned how to structure  HTML aswell as CSS codes.
@@ -21,3 +21,5 @@ My biggest take away from this is to work smarter not harder. by shorthanding my
 element to later on style them all at once or even make further changes.
 
 This site was created using Visual Studio Code.
+
+![alohascreen](https://cloud.githubusercontent.com/assets/24995518/22051523/b96764bc-dcf8-11e6-950d-5c9b549321d6.png)

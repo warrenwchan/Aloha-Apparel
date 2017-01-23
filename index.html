@@ -16,8 +16,8 @@
 
 <body>
     <nav class="navbar">
-        <!--<h1>Aloha</h1>-->
-        <section class="navcontainer">
+        <div class="navcontainer">
+            <!--<h1>Aloha</h1>-->
             <div class="logo">
                 <img src="images/aloha-logo.svg" alt="alohalogo">
             </div>
@@ -26,13 +26,13 @@
             </div>
             <div class="navmenu">
                 <ul>
-                    <li><a href="about">About</a></li>
-                    <li> <a href="shop">Shop</a></li>
-                    <li><a href="features">Featured</a></li>
-                    <li><a href="updates">Updates</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li> <a href="#shop">Shop</a></li>
+                    <li><a href="#features">Featured</a></li>
+                    <li><a href="#updates">Updates</a></li>
                 </ul>
             </div>
-        </section>
+        </div>
     </nav>
     <header class="banner">
         <div class="bannercontainer">
@@ -40,127 +40,135 @@
             <p class="spring"> Spring/Summer 2016</p>
         </div>
     </header>
-    <section class="caption">
-        <div class="captioncontainer">
-            <h2>Hand-Crafted <span class="boldtext">Styles</span></h2>
-            <p class="captiontext">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or
-                sign-up for updates below.</p>
+    <div class="caption">
+        <section id =”about”>
+            <div class="captioncontainer">
+                <h2>Hand-Crafted <span class="boldtext">Styles</span></h2>
+                <p class="captiontext">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or
+                    sign-up for updates below.</p>
+            </div>
+        </section>
+    </div>
+    <div id =”shop”>
+        <div class="category">
+                <div class="largecat">
+                    <div class="cat1large">
+                        <a class="catname" href="mens">men's</a>
+                    </div>
+                </div>
+                <div class="smallcat">
+                    <div class="cat2small">
+                        <a class="catname" href="trends">trends</a>
+                    </div>
+                </div>
+                <div class="smallcat">
+                    <div class="cat3small">
+                        <a class="catname" href="glasses">glasses</a>
+                    </div>
+                </div>
+                <div class="smallcat">
+                    <div class="cat4small">
+                        <a class="catname" href="sales">sales</a>
+                    </div>
+                </div>
+                <div class="smallcat">
+                    <div class="cat5small">
+                        <a class="catname" href="bags">bags</a>
+                    </div>
+                </div>
+                <div class="largecat">
+                    <div class="cat6large">
+                        <a class="catname" href="womens">women's</a>
+                    </div>
+                </div>
         </div>
-    </section>
-    <section class="category">
-            <div class="largecat">
-                <div class="cat1large">
-                    <a class="catname" href="mens">men's</a>
-                </div>
+    </div>
+    <div class="products">
+        <section id =”features”>
+            <div class="mostloved">
+                <h3>Most-Loved <span class="boldtext">Products</span></h3>
             </div>
-            <div class="smallcat">
-                <div class="cat2small">
-                    <a class="catname" href="trends">trends</a>
-                </div>
+            <ul class="main-carousel">
+                <li class="item">
+                    <img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>Stretch Knit Dress</h4>
+                        <p class="itemprice">$169.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
+                    <div class="itemtext">
+                        <p class="itemname">shirts</p>
+                        <h4>Cotton Blue Shirt</h4>
+                        <p class="itemprice">$89.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>Checked Stretch Dress</h4>
+                        <p class="itemprice">$129.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+                    <div class="itemtext">
+                        <p class="itemname">bags</p>
+                        <h4>Blue Hipster Backpack</h4>
+                        <p class="itemprice">$69.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
+                    <div class="itemtext">
+                        <p class="itemname">denim</p>
+                        <h4>Denim Overall Shorts</h4>
+                        <p class="itemprice">$89.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>pink dotted dress</h4>
+                        <p class="itemprice">$99.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/blue-silk-dress.jpg" alt="blue-silk-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>blue silk dress</h4>
+                        <p class="itemprice">$119.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt">
+                    <div class="itemtext">
+                        <p class="itemname">shirts</p>
+                        <h4>cotton yellow tshirt</h4>
+                        <p class="itemprice">$39.00</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="signup">
+        <div id =”updates”>
+            <div class="signupcontainer">
+                <h5>Sign-up for <span class="boldtext">Updates</span></h5>
+                <p class="captiontext">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style
+                        tips from our blog. Unsubscribe at any time.</p>
+                <form action="#" class="subscribe">
+                    <input class="email" type="email" name="email" value placeholder="Your Email">
+                    <button class="subbutt">Subscribe</button>
+                </form>
             </div>
-            <div class="smallcat">
-                <div class="cat3small">
-                    <a class="catname" href="glasses">glasses</a>
-                </div>
-            </div>
-            <div class="smallcat">
-                <div class="cat4small">
-                    <a class="catname" href="sales">sales</a>
-                </div>
-            </div>
-            <div class="smallcat">
-                <div class="cat5small">
-                    <a class="catname" href="bags">bags</a>
-                </div>
-            </div>
-            <div class="largecat">
-                <div class="cat6large">
-                    <a class="catname" href="womens">women's</a>
-                </div>
         </div>
-    </section>
-    <section class="products">
-        <div class="mostloved">
-            <h3>Most-Loved <span class="boldtext">Products</span></h3>
-        </div>
-        <ul class="main-carousel">
-            <li class="item">
-                <img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
-                <div class="itemtext">
-                    <p class="itemname">dresses</p>
-                    <h4>Stretch Knit Dress</h4>
-                    <p class="itemprice">$169.00</p>
-                </div>
-            </li>
-            <li class="item">
-                <img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
-                <div class="itemtext">
-                    <p class="itemname">shirts</p>
-                    <h4>Cotton Blue Shirt</h4>
-                    <p class="itemprice">$89.00</p>
-                </div>
-            </li>
-            <li class="item">
-                <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
-                <div class="itemtext">
-                    <p class="itemname">dresses</p>
-                    <h4>Checked Stretch Dress</h4>
-                    <p class="itemprice">$129.00</p>
-                </div>
-            </li>
-            <li class="item">
-                <img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
-                <div class="itemtext">
-                    <p class="itemname">bags</p>
-                    <h4>Blue Hipster Backpack</h4>
-                    <p class="itemprice">$69.00</p>
-                </div>
-            </li>
-            <li class="item">
-                <img src="images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
-                <div class="itemtext">
-                    <p class="itemname">denim</p>
-                    <h4>Denim Overall Shorts</h4>
-                    <p class="itemprice">$89.00</p>
-                </div>
-            </li>
-            <li class="item">
-                <img src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
-                <div class="itemtext">
-                    <p class="itemname">dresses</p>
-                    <h4>pink dotted dress</h4>
-                    <p class="itemprice">$99.00</p>
-                </div>
-            </li>
-            <li class="item">
-                  <img src="images/blue-silk-dress.jpg" alt="blue-silk-dress">
-                <div class="itemtext">
-                    <p class="itemname">dresses</p>
-                    <h4>blue silk dress</h4>
-                    <p class="itemprice">$119.00</p>
-                </div>
-            </li>
-            <li class="item">
-                <img src="images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt">
-                <div class="itemtext">
-                    <p class="itemname">shirts</p>
-                    <h4>cotton yellow tshirt</h4>
-                    <p class="itemprice">$39.00</p>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section class="signup">
-        <div class="signupcontainer">
-            <h5>Sign-up for <span class="boldtext">Updates</span></h5>
-            <p class="captiontext">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style
-                    tips from our blog. Unsubscribe at any time.</p>
-            <form action=""class="subscribe">
-                <input class="email" type="email" name="email" value placeholder="yourEmail">
-                <button class="subbutt">Subscribe</button>
-            </form>
-        </div>
-    </section>
+    </div>
     <footer>
         <div class="footercontainer">
             <div class="info">
