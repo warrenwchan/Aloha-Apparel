@@ -8,6 +8,7 @@ We were then working with javascript and got to learn different commands and to 
 ![screen shot 2017-01-23 at 1 41 10 am](https://cloud.githubusercontent.com/assets/24995518/22199346/59b5f1bc-e10f-11e6-9024-2f7df96913de.png)
 My toughest challenge was and still is working with javascript. Struggling with javascript made it hard to impliment these comands and actions we get returned to us when certain buttons are pressed. Im challenged the most with structuring java codes and coming up with where to start. Although throughout this project i can say ive gotten some of the basics of JS down but more practice is in need. 
 
+------------------------------------------------------------------------------------------------------------------------------
 # Aloha-Apparel Phase 1
 README
 January.16,2017
