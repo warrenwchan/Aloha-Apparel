@@ -132,3 +132,30 @@ http://flickity.metafizzy.co
 .item is-selected {
   width: 500px;
 }
+
+
+@media screen and (min-width: 600px){
+  .flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+}
+
+@media screen and (min-width: 1240px) {
+  .flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -90px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
