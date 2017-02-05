@@ -2,20 +2,39 @@
 html{
     font-size: 14px;
 }
+
+.screen-reader-text:focus {
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000; /* above all content */
+}
+
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+
 body{
     margin: 0 auto;
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     text-align: center;
     display: block;
 }
 
 h2,h3,h5{
-    font-family: 'playfair';
+    font-family: 'playfair', serif;
     font-style: italic;
 }
 
 .boldtext{
-    font-family: 'playfair';
+    font-family: 'playfair', serif;
     font-weight: bold;
     font-style: normal;
 }
@@ -25,7 +44,7 @@ h2,h3,h5,.boldtext{
 }
 
 .captiontext{
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     font-weight: lighter;
     font-size: 1.15rem;
     line-height: 2;
@@ -91,7 +110,7 @@ h2,h3,h5,.boldtext{
 }
 
 .navmenu li a{
-    font-family: 'ralewaymedium';
+    font-family: 'ralewaymedium', sans-serif;
     font-style: normal;
     font-size: 1rem;
     color: #e2574c;
@@ -131,7 +150,7 @@ h2,h3,h5,.boldtext{
 }
 
 .new{
-    font-family: 'ralewaymedium';
+    font-family: 'ralewaymedium', sans-serif;
     font-style: normal;
     font-size: 1.8rem;
     font-variant: small-caps;
@@ -142,7 +161,7 @@ h2,h3,h5,.boldtext{
 
 .spring{
     font-size: 2.5rem;
-    font-family: 'playfair';
+    font-family: 'playfair', serif;
     font-style: normal;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
     z-index: 1;
@@ -248,7 +267,7 @@ h2,h3,h5,.boldtext{
 }
 
 .catname{
-    font-family: 'ralewaymedium';
+    font-family: 'ralewaymedium', sans-serif;
     font-size: 1.6rem;
     text-transform: uppercase;
     color: white;
@@ -292,16 +311,16 @@ h2,h3,h5,.boldtext{
 }
 
 .itemname{
-    font-family: ralewaymedium;
+    font-family: 'ralewaymedium', sans-serif;
     font-size: 1.1rem;
     font-variant: small-caps;
 }
 
 .itemprice{
-    font-family: 'ralewaymedium';
+    font-family: 'ralewaymedium', sans-serif;
 }
 h4{
-    font-family: 'playfair';
+    font-family: 'playfair', serif;
     font-size: 1.5rem;
     color: #e2574c;
     padding: 18px;
@@ -365,7 +384,7 @@ lable{
 
 .email{
     width: 71.54%;
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     font-style: light;
     outline: none;
     padding-left: 5%;
@@ -398,7 +417,7 @@ footer{
 
 
 .info{
-    font-family: 'playfair';
+    font-family: 'playfair', serif;
     text-align: center;
     font-size: 1rem;
     color: white;
@@ -443,6 +462,8 @@ i:hover{
 .social a {
      text-decoration: none;
 }
+
+
 
 /*--------------------TABLET---------------------*/
 
