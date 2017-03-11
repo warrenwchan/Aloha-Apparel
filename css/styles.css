@@ -20,12 +20,19 @@ html{
    width: 1px;
    overflow: hidden;
 }
+.flickity-viewport{
+    width:100%;
+}
 
 body{
     margin: 0 auto;
     font-family: 'raleway', sans-serif;
     text-align: center;
     display: block;
+}
+
+h1 {
+    display: none;
 }
 
 h2,h3,h5{
@@ -759,9 +766,10 @@ i:hover{
     }
 
     .banner{
-        height: 550px;
+        height: 740px;
         background-repeat: no-repeat, no-repeat, repeat-x;
         background-size: contain, 250px, contain;
+        background-position: center, center 128px,top;
     }
 
     .spring{
@@ -809,5 +817,9 @@ i:hover{
 
     .social{
         padding-right: 3rem;
+    }
+
+    .signup{
+        background-size: cover;
     }
 }
